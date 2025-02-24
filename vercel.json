@@ -34,7 +34,7 @@
         },
         {
             "src": "/debug/(.*)",
-            "dest": "https://api-proxy.oaipro.com/$1"
+            "dest": "https://api-proxy.oaipro.com/debug/echo"
         }
     ],
     "regions": [
