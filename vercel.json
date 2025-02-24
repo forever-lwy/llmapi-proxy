@@ -33,7 +33,7 @@
             "dest": "https://api.x.ai/v1/$1"
         },
         {
-            "src": "/test/(.*)",
+            "src": "/debug/(.*)",
             "dest": "https://api-proxy.oaipro.com/$1"
         }
     ],
