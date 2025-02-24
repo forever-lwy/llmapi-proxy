@@ -31,6 +31,10 @@
         {
             "src": "/xai/v1/(.*)",
             "dest": "https://api.x.ai/v1/$1"
+        },
+        {
+            "src": "/test",
+            "dest": "https://api-proxy.oaipro.com/debug/echo"
         }
     ],
     "regions": [
